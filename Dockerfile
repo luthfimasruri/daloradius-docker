@@ -26,7 +26,7 @@ ENV MYSQL_HOST localhost
 ENV MYSQL_PORT 3306
 ENV MYSQL_DATABASE radius
 
-ENV TZ Europe/Berlin
+ENV TZ Asia/Jakarta
 
 RUN apt-get update \
  && apt-get install --yes \
