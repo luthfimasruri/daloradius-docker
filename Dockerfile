@@ -1,15 +1,15 @@
 FROM ubuntu:20.04
 
-LABEL org.opencontainers.image.ref.name="frauhottelmann/daloradius-docker" \
+LABEL org.opencontainers.image.ref.name="luthfimasruri/daloradius-docker" \
       org.opencontainers.image.created=$BUILD_RFC3339 \
-      org.opencontainers.image.authors="frauhottelmann" \
-      org.opencontainers.image.documentation="https://github.com/frauhottelmann/daloradius-docker/blob/master/README.md" \
+  org.opencontainers.image.authors="luthfimasruri" \
+  org.opencontainers.image.documentation="https://github.com/luthfimasruri/daloradius-docker/blob/master/README.md" \
       org.opencontainers.image.description="Docker image with freeradius, daloradius, apache2, php. You need to supply your own MariaDB-Server." \
       org.opencontainers.image.licenses="GPLv3" \
-      org.opencontainers.image.source="https://github.com/frauhottelmann/daloradius-docker" \
+  org.opencontainers.image.source="https://github.com/luthfimasruri/daloradius-docker" \
       org.opencontainers.image.revision=$COMMIT \
       org.opencontainers.image.version=$VERSION \
-      org.opencontainers.image.url="https://hub.docker.com/r/frauhottelmann/daloradius-docker"
+  org.opencontainers.image.url="https://hub.docker.com/r/luthfimasruri/daloradius-docker"
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
