@@ -1,8 +1,8 @@
 version: "3"
 services:
   radius:
-    image: frauhottelmann/daloradius-docker:1.2 #you need to change the tag to your arch and the desired version
-    container_name: radius
+    image: dalo-radius:latest #you need to change the tag to your arch and the desired version
+    container_name: dalo-radius
     restart: always
     depends_on:
       - "radius-mysql" 

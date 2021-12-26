@@ -8,7 +8,7 @@ echo 'echo "Initialization error" 1>&2' >> /cbs/init.sh
 DEBIAN_FRONTEND=noninteractive
 
 # wait for MySQL-Server to be ready
-while ! mysqladmin ping -h"$MYSQL_HOST" --silent; do
+while ! mysqladmin ping -h "$MYSQL_HOST" --silent; do
     sleep 20
 done
 
